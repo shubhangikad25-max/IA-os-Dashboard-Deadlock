@@ -1,0 +1,25 @@
+{
+  "name": "deadlock-lab",
+  "version": "1.0.0",
+  "description": "Interactive Deadlock Analysis and Resource Allocation Simulator with C Engine",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "node backend/compile.js",
+    "compile": "node backend/compile.js",
+    "test": "node backend/test_suite.js"
+  },
+  "keywords": [
+    "operating-systems",
+    "bankers-algorithm",
+    "deadlock-detection",
+    "resource-allocation",
+    "c-programming"
+  ],
+  "author": "Undergraduate OS Lab",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  }
+}
